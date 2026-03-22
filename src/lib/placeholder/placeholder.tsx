@@ -1,16 +1,18 @@
 import { FC } from "react";
 import styled from "styled-components";
 
+
 export interface PlaceholderProps {
 	/**
 	 * Текстовое поля для ввода пользователем
 	 */
-	text?: string;
+	text: string;
 }
 
-const StyledPlaceholder = styled.div<PlaceholderProps>`
-	color: black;
-`
+const StyledPlaceholder = styled.div`
+   color: ${props => props.theme.colors.danger[400]};
+`;
+
 
 /**
  * Тестовый компонент заглушка

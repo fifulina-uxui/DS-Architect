@@ -1,5 +1,5 @@
 export const spacers = {
-	none: "0px",
+	0: "0px",
 	1: "1px",
 	2: "2px",
 	3: "3px",
@@ -19,6 +19,7 @@ export const spacers = {
 	22: "22px",
 	23: "23px",
 	24: "24px",
+	28: "28px",
 	30: "30px",
 	32: "32px",
 	36: "36px",
@@ -27,4 +28,6 @@ export const spacers = {
 	56: "56px",
 	64: "64px",
 	72: "72px",
+	128: "128px",
+	999: "999px",
 };

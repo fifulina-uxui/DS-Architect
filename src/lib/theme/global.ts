@@ -16,6 +16,6 @@ export const GlobalStyle = createGlobalStyle`
             -webkit-overflow-scrolling: touch;
 
             font-family: sans-serif;
-            background: ${({ theme }) => theme.colors.bg.calm.global};
+            background: ${props => props.theme.colors.neutral.globalBg};
 	}
 `;
